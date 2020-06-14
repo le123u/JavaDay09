@@ -18,9 +18,10 @@ public class DoubleNumTest {
 
     }
     // 获取某集合中所有的偶数
-    // 1. 创建偶数集合
+
     // 此时List<Integer> list 作为了getEvenNum方法的参数
     public static List<Integer> getEvenNum(List<Integer> list){
+        // 1. 创建偶数集合
         ArrayList<Integer> arrayList = new ArrayList<>();
         // 遍历集合
         for (int i = 0; i < list.size(); i++) {
